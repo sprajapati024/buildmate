@@ -1,7 +1,7 @@
 {
   "name": "buildmate-ai",
   "version": "1.25.1",
-  "description": "A meta-prompting, context engineering and spec-driven development system for Claude Code, OpenCode, Gemini and Codex by TÂCHES.",
+  "description": "Project manager for Claude Code. Multi-agent development system with interview phase, scope locking, and team orchestration.",
   "bin": {
     "buildmate-ai": "bin/install.js"
   },
@@ -25,7 +25,7 @@
     "codex",
     "codex-cli"
   ],
-  "author": "TÂCHES",
+  "author": "Shirin Prajapati <shirin@example.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
