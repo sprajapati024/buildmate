@@ -1,0 +1,51 @@
+{
+  "name": "buildmate-ai",
+  "version": "1.25.1",
+  "description": "A meta-prompting, context engineering and spec-driven development system for Claude Code, OpenCode, Gemini and Codex by TÂCHES.",
+  "bin": {
+    "buildmate-ai": "bin/install.js"
+  },
+  "files": [
+    "bin",
+    "commands",
+    "buildmate-core",
+    "agents",
+    "hooks/dist",
+    "scripts"
+  ],
+  "keywords": [
+    "claude",
+    "claude-code",
+    "ai",
+    "meta-prompting",
+    "context-engineering",
+    "spec-driven-development",
+    "gemini",
+    "gemini-cli",
+    "codex",
+    "codex-cli"
+  ],
+  "author": "TÂCHES",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sprajapati024/buildmate.git"
+  },
+  "homepage": "https://github.com/sprajapati024/buildmate",
+  "bugs": {
+    "url": "https://github.com/sprajapati024/buildmate/issues"
+  },
+  "engines": {
+    "node": ">=16.7.0"
+  },
+  "devDependencies": {
+    "c8": "^11.0.0",
+    "esbuild": "^0.24.0"
+  },
+  "scripts": {
+    "build:hooks": "node scripts/build-hooks.js",
+    "prepublishOnly": "npm run build:hooks",
+    "test": "node scripts/run-tests.cjs",
+    "test:coverage": "c8 --check-coverage --lines 70 --reporter text --include 'bin/lib/*.cjs' --exclude 'tests/**' --all node scripts/run-tests.cjs"
+  }
+}

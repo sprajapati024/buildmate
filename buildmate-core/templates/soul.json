@@ -1,0 +1,48 @@
+{
+  "version": "1.0.0",
+  "interview": {
+    "completed": false,
+    "mode": "fast",
+    "transcript": []
+  },
+  "project": {
+    "name": "",
+    "born": "",
+    "intent": "",
+    "constraints": [],
+    "target_users": "",
+    "success_criteria": []
+  },
+  "agents": {
+    "active": [],
+    "completed": [],
+    "queue": []
+  },
+  "phases": {
+    "current": 1,
+    "total": 0,
+    "completed": [],
+    "current_phase": {
+      "name": "",
+      "status": "planning",
+      "started_at": "",
+      "components": []
+    }
+  },
+  "documentation": {
+    "drift_detected": false,
+    "last_sync": "",
+    "docs_updated": []
+  },
+  "quality": {
+    "last_test_run": "",
+    "coverage": 0,
+    "passing": true
+  },
+  "broadcasts": [],
+  "history": {
+    "commits": [],
+    "decisions": [],
+    "milestones": []
+  }
+}
